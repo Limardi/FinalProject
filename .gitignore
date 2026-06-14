@@ -1,0 +1,46 @@
+# Unity build (1GB+ — download separately, see agents.md)
+pros_twin_unity_tsai_run/
+
+# Secrets / local env
+.env
+**/.env
+
+# ROS2 build artifacts
+build/
+install/
+log/
+**/build/
+**/install/
+**/log/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*~
+
+# Media / scratch (not needed for running the stack)
+fps_screenshots/
+screenshots/
+vidframes/
+pdf_pages/
+pdf_pages2/
+*.pdf
+cam_t3_search.jpg
+test_frame.jpg
+
+# Empty placeholder dirs at repo root only
+/launch/
+/src/
+
+# Docker / colcon misc
+COLCON_IGNORE
+AMENT_IGNORE
